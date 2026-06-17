@@ -15,6 +15,9 @@
 /(vendor|system/vendor)/super_fsg    u:object_r:fsg_firmware_file:s0
 /(vendor|system/vendor)/super_modem  u:object_r:firmware_file:s0
 
+# System Suspend
+/sys/class/wakeup/wakeup[0-9]+(/.*)? u:object_r:sysfs_wakeup:s0
+
 # HAL Services
 /(vendor|system/vendor)/bin/hw/motorola\.hardware\.audio\.adspd@1\.0-service           u:object_r:hal_audio_default_exec:s0
 

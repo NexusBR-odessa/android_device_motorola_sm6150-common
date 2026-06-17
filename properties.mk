@@ -222,7 +222,9 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     persist.log.tag.ETS-MAIN=S \
     persist.log.tag.ETS-FPNORMALIO=S \
     persist.log.tag.ETS_TZ_CLIENT=S \
-    persist.log.tag.ETS-NAVI=S
+    persist.log.tag.ETS-NAVI=S \
+    persist.log.tag.SurfaceControl=S \
+    persist.log.tag.BLASTBufferQueue=S
 
 # Media
 PRODUCT_PROPERTY_OVERRIDES += \
